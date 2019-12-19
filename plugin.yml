@@ -1,0 +1,6 @@
+name: ThrowTheTnT
+version: 1.0.0
+api: 3.0.0
+description: "Now throw tnts!"
+main: shelly7w7\throwthetnt\Loader
+author: Shelly7w7

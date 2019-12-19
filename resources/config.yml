@@ -1,0 +1,29 @@
+#  _______ _                    _______ _       _______ _   _ _______
+# |__   __| |                  |__   __| |     |__   __| \ | |__   __|
+#    | |  | |__  _ __ _____      _| |  | |__   ___| |  |  \| |  | |
+#    | |  | '_ \| '__/ _ \ \ /\ / / |  | '_ \ / _ \ |  | . ` |  | |
+#    | |  | | | | | | (_) \ V  V /| |  | | | |  __/ |  | |\  |  | |
+#    |_|  |_| |_|_|  \___/ \_/\_/ |_|  |_| |_|\___|_|  |_| \_|  |_|
+
+# Welcome to the configuration of ThrowTheTNT plugin!
+# Make sure to maintain the format as it is to avoid any additional errors.
+# This plugin is only tested on pocketmine, so I don't guarantee if it'll work on other forks or spoons.
+# Use "§" for colors.
+
+#This is the main configuration category:
+configuration:
+  # Set a custom name that will be shown as the TNTs name.
+  customname: "Throwable Tnt"
+  # Set a lore which will be shown as the description of the tnt.
+  lore: "You can throw this tnt!"
+  # Customizable TNT speed! Recommended is between 1 and 2. Default is set to 1.
+  speed: 1
+
+# This is the cooldown category.
+cooldown:
+  # Set timer for the cooldown, Note: Timer should be in seconds.
+  timer: 120
+  # Set an error message that'll be shown when using tnt in the cooldown period. Use the tag "{timer}" to display the remaining time.
+  message: "Cooldown! You can use tnt again in {timer}."
+
+s

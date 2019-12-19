@@ -1,7 +1,5 @@
-#ThrowTheTNT
-
+# ThrowTheTNT
 Throw TNTs like cannons with proper customization!
-
 ## How to use?
 > This plugin is not complicated. Use the command ```/throwtnt (name) [amount]``` to give someone TNT. Then whilst holding the tnt and facing a direction, right-click to launch the tnt.
 

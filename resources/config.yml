@@ -25,5 +25,3 @@ cooldown:
   timer: 120
   # Set an error message that'll be shown when using tnt in the cooldown period. Use the tag "{timer}" to display the remaining time.
   message: "Cooldown! You can use tnt again in {timer}."
-
-s

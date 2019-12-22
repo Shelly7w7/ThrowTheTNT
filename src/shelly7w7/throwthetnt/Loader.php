@@ -18,8 +18,7 @@ class Loader extends PluginBase{
         self::$instance = $this;
         $this->getServer()->getCommandMap()->register("throwtnt", new ThrowTntCommand($this));
         $this->getServer()->getPluginManager()->registerEvents(new EventListener($this), $this);
-        @mkdir($this->getDataFolder());
-        $this->config = $this->saveDefaultConfig();
+        $this->config = $this->getConfig();
     }
 
     public function getTntConfig() : Config{
